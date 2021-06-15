@@ -1,0 +1,154 @@
+/* responsive */
+@media (max-width: 1200px) {
+
+    .container-md {
+        width: 970px;
+    }
+
+    /* myCarousel */
+    .myCarousel .carousel-item .carousel-caption {
+        width: 80%;
+    }
+
+    .myCarousel .carousel-item img {
+        height: 524px;
+    }
+
+    .myCarousel .carousel-item .carousel-caption h5 {
+        font-size: 3em;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .myCarousel .carousel-item .carousel-caption p {
+        letter-spacing: 4px;
+        font-size: 1em;
+        line-height: 1.8em;
+        font-weight: 300;
+    }
+
+    .myCarousel .carousel-indicators {
+        bottom: 10%;
+    }
+
+    /* end myCarousel */
+}
+
+@media (max-width: 992px) {
+    .container-sm {
+        max-width: 750px;
+    }
+
+    .header__menu .navbar-nav li {
+        margin: 0 5px;
+    }
+
+    /* myCarousel */
+
+    .myCarousel .carousel-item img {
+        height: 466px;
+    }
+
+    .myCarousel .carousel-item .carousel-caption h5 {
+        font-size: 2.6em;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .myCarousel .carousel-item .carousel-caption p {
+        letter-spacing: 4px;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .myCarousel .carousel-indicators {
+        bottom: 10%;
+    }
+
+    /* end myCarousel */
+
+}
+
+@media (max-width: 768px) {
+
+
+
+    /* header */
+    .header__menu .navbar-nav li {
+        margin: 0;
+    }
+
+    .header__menu .navbar-nav li a {
+        font-size: 0.9rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* end header */
+
+    /* myCarousel */
+
+
+    .myCarousel .carousel-item .carousel-caption h5 {
+        font-size: 2.2em;
+        letter-spacing: 1px;
+    }
+
+    .myCarousel .carousel-item .carousel-caption p {
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+
+    .myCarousel .carousel-indicators {
+        bottom: 10%;
+    }
+
+    /* end myCarousel */
+    .welcome .welcome__border {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+
+    /* myCarousel */
+    .myCarousel .carousel-indicators {
+        bottom: 5%;
+    }
+
+    .myCarousel .carousel-item .carousel-caption {
+        bottom: 0;
+    }
+
+    .myCarousel .carousel-item .carousel-caption h5 {
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+    }
+
+
+    .myCarousel .carousel-item .carousel-caption p {
+        letter-spacing: 3px;
+        font-size: 0.95em;
+    }
+
+    .myCarousel .carousel-item img {
+        height: 392px;
+    }
+
+    .myCarousel .carousel-item button {
+        margin-top: 0;
+    }
+
+    /* end myCarousel */
+
+    /* welcome */
+
+
+    /* end welcome */
+}
+
+/* end responsive */
